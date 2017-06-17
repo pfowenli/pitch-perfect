@@ -12,6 +12,7 @@
 		788140491EE45823009F58F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788140471EE45823009F58F5 /* Main.storyboard */; };
 		7881404B1EE45823009F58F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7881404A1EE45823009F58F5 /* Assets.xcassets */; };
 		7881404E1EE45823009F58F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7881404C1EE45823009F58F5 /* LaunchScreen.storyboard */; };
+		78AB29E71EF51E6F001B2996 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AB29E61EF51E6F001B2996 /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7881404A1EE45823009F58F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7881404D1EE45823009F58F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7881404F1EE45823009F58F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78AB29E61EF51E6F001B2996 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				7881404A1EE45823009F58F5 /* Assets.xcassets */,
 				7881404C1EE45823009F58F5 /* LaunchScreen.storyboard */,
 				7881404F1EE45823009F58F5 /* Info.plist */,
+				78AB29E61EF51E6F001B2996 /* PlaySoundsViewController.swift */,
 			);
 			path = PerfectPitch;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				788140461EE45823009F58F5 /* RecordSoundViewController.swift in Sources */,
+				78AB29E71EF51E6F001B2996 /* PlaySoundsViewController.swift in Sources */,
 				788140441EE45823009F58F5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
